@@ -1,4 +1,85 @@
 .land-container {
-    margin: 0 !important;
-    padding: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #4a4a4a;
+  line-height: 1.5;
+  background-color: #fff;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 28px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 18px;
+  text-align: center;
+}
+
+p,
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  color: #4a4a4a;
+}
+
+.mainvisual {
+  position: relative;
+}
+
+.mainvisual img {
+  width: 100%;
+  margin-bottom: 80px;
+}
+
+.mainvisual h2 {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+.about p {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.about h2 {
+  margin-bottom: 10px;
+}
+
+.survey h2 {
+  margin-bottom: 10px;
+}
+
+.survey img {
+  width: 50%;
+  text-align: center;
+}
+
+.footer {
+  background-color: #4a4a4a;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+.footer p {
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
 }
